@@ -34,3 +34,7 @@ BPS为：115200, 8N1
 void readDHT22AndConvert();
 里面读取DHT22感觉有点问题，如果要上线使用，建议用usb转ttl刷机线，连接到 Arduino IDE上面，
 查看一下数据是否正常。如果不正常，建议再换个温度传感器
+
+本实例使用的上位机为
+
+https://gitee.com/sndnvaps/TempHumidityMonitor
