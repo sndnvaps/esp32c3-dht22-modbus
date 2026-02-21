@@ -89,7 +89,7 @@ void readDHT22AndConvert() {
     此为放大倍数有点问题，我的DHT22读取的数据个位数，没有大于10的，
     所以就乘100，才能得到需要的结果
     */
-    temp_int = (int16_t)(temperature*100.0);
+    temp_int = (int16_t)(temperature*100);
     humi_int = (int16_t)(humidity*100);
     // 打印调试信息
     softSerial.print("温度(×10)：");
